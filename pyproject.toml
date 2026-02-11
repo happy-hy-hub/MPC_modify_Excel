@@ -1,0 +1,16 @@
+[project]
+name = "project-mcp-server"
+version = "1.0.0"
+description = "MCP Server for Excel-based project management"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=0.1.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.scripts]
+project-mcp-server = "project_mcp_server.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
