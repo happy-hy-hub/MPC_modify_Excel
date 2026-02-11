@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 仮想環境
+.venv/
+env/
+venv/
+
+# ログファイル
+logs/*.log
+
+# 設定ファイル（個人情報を含む可能性があるため除外）
+config.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
